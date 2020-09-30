@@ -1,4 +1,4 @@
-package com.github.xiaolyuh.demo.embedded;
+package org.chance.sample.cache.embedded;
 
 import org.springframework.stereotype.Component;
 import redis.embedded.RedisServer;

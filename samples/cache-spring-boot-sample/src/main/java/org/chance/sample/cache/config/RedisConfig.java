@@ -1,4 +1,4 @@
-package com.github.xiaolyuh.demo.config;
+package org.chance.sample.cache.config;
 
 import com.alibaba.fastjson.parser.ParserConfig;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;

@@ -1,6 +1,6 @@
-package com.github.xiaolyuh.demo.service;
+package org.chance.sample.cache.service;
 
-import com.github.xiaolyuh.demo.entity.Person;
+import org.chance.sample.cache.entity.Person;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

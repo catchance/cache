@@ -1,4 +1,4 @@
-package com.github.xiaolyuh.demo;
+package org.chance.sample.cache;
 
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

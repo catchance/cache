@@ -1,7 +1,7 @@
-package com.github.xiaolyuh.demo.controller;
+package org.chance.sample.cache.controller;
 
-import com.github.xiaolyuh.demo.entity.Person;
-import com.github.xiaolyuh.demo.service.PersonService;
+import org.chance.sample.cache.entity.Person;
+import org.chance.sample.cache.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

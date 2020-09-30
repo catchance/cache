@@ -1,4 +1,4 @@
-package com.github.xiaolyuh.demo.config;
+package org.chance.sample.cache.config;
 
 import com.github.xiaolyuh.cache.properties.LayeringCacheProperties;
 import com.github.xiaolyuh.tool.servlet.LayeringCacheServlet;

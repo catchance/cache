@@ -1,8 +1,8 @@
-package com.github.xiaolyuh.demo.service.impl;
+package org.chance.sample.cache.service.impl;
 
 import com.github.xiaolyuh.annotation.*;
-import com.github.xiaolyuh.demo.entity.Person;
-import com.github.xiaolyuh.demo.service.PersonService;
+import org.chance.sample.cache.entity.Person;
+import org.chance.sample.cache.service.PersonService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

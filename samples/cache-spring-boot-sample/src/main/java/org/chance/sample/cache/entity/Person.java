@@ -1,4 +1,4 @@
-package com.github.xiaolyuh.demo.entity;
+package org.chance.sample.cache.entity;
 
 import java.io.Serializable;
 

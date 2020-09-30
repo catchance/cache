@@ -1,8 +1,8 @@
-package com.github.xiaolyuh.demo.controller;
+package org.chance.sample.cache.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.github.xiaolyuh.demo.entity.Person;
-import com.github.xiaolyuh.demo.utils.OkHttpClientUtil;
+import org.chance.sample.cache.entity.Person;
+import org.chance.sample.cache.utils.OkHttpClientUtil;
 import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.RequestBody;

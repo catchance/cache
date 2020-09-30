@@ -1,4 +1,4 @@
-package com.github.xiaolyuh.demo;
+package org.chance.sample.cache;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

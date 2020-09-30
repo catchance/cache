@@ -1,4 +1,4 @@
-package com.github.xiaolyuh.demo.utils;
+package org.chance.sample.cache.utils;
 
 import com.alibaba.fastjson.JSON;
 import okhttp3.*;

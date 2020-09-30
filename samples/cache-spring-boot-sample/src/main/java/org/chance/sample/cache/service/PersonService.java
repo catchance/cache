@@ -1,7 +1,7 @@
-package com.github.xiaolyuh.demo.service;
+package org.chance.sample.cache.service;
 
 
-import com.github.xiaolyuh.demo.entity.Person;
+import org.chance.sample.cache.entity.Person;
 
 public interface PersonService {
     Person save(Person person);

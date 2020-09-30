@@ -1,0 +1,16 @@
+pluginManagement{
+    // pluginManagement {}块只能出现在settings.gradle文件中，该文件必须是文件中的第一个块
+    plugins {
+        // https://github.com/spring-gradle-plugins
+        id 'org.springframework.boot' version "${springBootVersion}"
+    }
+}
+
+rootProject.name = 'cache'
+
+include ':cache-core'
+include ':cache-admin'
+include ':cache-spring-boot:cache-spring-boot-autoconfigure'
+include ':cache-spring-boot:cache-spring-boot-starter'
+
+include 'samples:cache-spring-boot-sample'

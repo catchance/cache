@@ -1,0 +1,13 @@
+description = 'cache-spring-boot-starter'
+
+dependencies {
+    api project(":cache-spring-boot:cache-spring-boot-autoconfigure")
+}
+
+jar {
+    manifest {
+        attributes 'Automatic-Module-Name': 'spring.boot.starter'
+    }
+}
+
+

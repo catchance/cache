@@ -1,0 +1,30 @@
+plugins {
+    // apply false 单独使用Spring Boot的依赖管理
+    id 'org.springframework.boot' version "${springBootVersion}" apply false
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+description = 'cache-spring-boot-autoconfigure'
+
+// 单独使用Spring Boot的依赖管理
+dependencyManagement {
+    imports {
+        mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+    }
+}
+
+jar {
+    manifest {
+        attributes 'Automatic-Module-Name': 'cache-spring-boot-autoconfigure'
+    }
+}
+
+dependencies {
+
+    api project(":cache-core")
+    api project(":cache-admin")
+    api 'org.springframework.boot:spring-boot-autoconfigure'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
